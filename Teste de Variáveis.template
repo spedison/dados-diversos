@@ -1,0 +1,38 @@
+##as primeiras linhas que iniciarem com # serão ignoradas
+id=1609347933885
+nome=Teste de Variáveis
+assunto=Teste de Template 
+filename=Teste de Variáveis.template
+conteudo=
+
+
+<p>Todas as Vari&aacute;veis devem ser substituidas, se a planilha com os dados for completamente preenchida.</p>
+
+<p><strong>nome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{nome}}</strong></p>
+
+<p>nomeCamelCase &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{nomeCamelCase}}</p>
+
+<p>nome2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{nome2}}</p>
+
+<p>nome2CamelCase &nbsp;&nbsp;&nbsp;&nbsp; : {{nome2CamelCase}}</p>
+
+<p>email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{email}}</p>
+
+<p>orgao&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{orgao}} &nbsp;</p>
+
+<hr />
+<p>estado&nbsp;&nbsp;&nbsp;&nbsp; : {{estado}}<br />
+id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{id}}<br />
+titular&nbsp;&nbsp;&nbsp; : {{titular}}<br />
+partido&nbsp;&nbsp;&nbsp; : {{partido}}<br />
+sexo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {{sexo}}<br />
+masculino&nbsp; : {{#masculino}}Verdadeiro{{/masculino}}{{^masculino}}Falso{{/masculino}}<br />
+telefone&nbsp;&nbsp; : {{telefone}}<br />
+tratamento : {{tratamento}}<br />
+meuNome&nbsp;&nbsp;&nbsp; : {{meuNome}}<br />
+meuCPF&nbsp;&nbsp;&nbsp;&nbsp; : {{meuCPF}}<br />
+meuEmail&nbsp;&nbsp; : {{meuEmail}}<br />
+meuSmtp&nbsp;&nbsp;&nbsp; : {{meuSmtp}}</p>
+
+<p>&nbsp;</p>
+

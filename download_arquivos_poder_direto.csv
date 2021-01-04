@@ -1,4 +1,8 @@
-### Essas linhas serão ignoradas.
+### Essas linhas serão ignoradas. (5 linhas ) 
+## 1o Coluna é URL a segunda é o nome do aquivo que será baixado.
+##
+##
+##
 https://github.com/spedison/dados-diversos/blob/main/contatos.xlsx?raw=true;contatos.xlsx
 https://github.com/spedison/dados-diversos/blob/main/contatos-vazio.csv?raw=true;vazio.xlsx
 https://github.com/spedison/dados-diversos/blob/main/camara.xlsx?raw=true;camara.xlsx
